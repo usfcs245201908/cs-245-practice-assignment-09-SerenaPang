@@ -31,8 +31,6 @@ class BinaryHeap
         return Arrays.copyOf(binaryHeap, binaryHeap.length * 2);
     }
 
-
-
   
     private int parent(int i)
     {
